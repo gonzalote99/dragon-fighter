@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  font-size: 7vh;
+  color: white;
+}
+
+div {
+  margin: 1vh;
+}
+
+button {
+  position: absolute;
+  top: 70vh;
+  margin: 1vh;
+  font-size: 7vh;
+  background: green;
+  color: white;
+  text-align: center;
+  width: 40%;
+  left: 50%;
+  border: solid;
+  background-color: black;
+  border-radius: 10px;
+}
+
+#trade {
+  font-size: 5vh;
+}

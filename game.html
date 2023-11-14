@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="text/css" href="https://raw.githubusercontent.com/abhineetraj1/dragon-fighter/main/down.png" />
+  <link rel="stylesheet" href="game.css" />
+  <title>dragon fighter</title>
+</head>
+<body>
+  <div id="bg">
+  <p id="YourLife-t">your life</p>
+  <meter id="YourLife" max="100" value="100" ></meter>
+  <p id="DragonLife-t">dragon life</p>
+  <meter id="DragonLife" max="100" value="100"></meter>
+ <img src="https://raw.githubusercontent.com/abhineetraj1/dragon-fighter/main/background.jpg" id="background">
+  </div>
+  <div id="game-ground">
+     <div id="soldier">
+      <img src="https://raw.githubusercontent.com/abhineetraj1/dragon-fighter/main/up.png" id="s-img">
+     </div>
+     <div id="dragon">
+    <img src="https://raw.githubusercontent.com/abhineetraj1/dragon-fighter/main/dragon.png" id="d-img">
+     </div>
+  </div>
+  <div id="controls">
+   <button class="ply" onclick="shoot()">shoot</button>
+   <button class="ply" onclick="bend()">bend</button>
+   <a href="menu.html"><button class="ply">menu</button> </a> 
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>

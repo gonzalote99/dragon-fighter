@@ -1,0 +1,83 @@
+body {
+  padding: 0vh;
+  margin: 0vh;
+}
+
+#soldier {
+  width: 30%;
+  float: left;
+  height: 100vh;
+}
+
+#dragon {
+  width: 60%;
+  float: right;
+  height: 10vh;
+  text-align: right;
+}
+
+#s-img {
+  position: absolute;
+  top: 49vh;
+  left: 4vh;
+  height: 30vh;
+
+}
+
+#d-img {
+  position: absolute;
+  left: 95vh;
+  top: 24vh;
+  height: 50vh;
+}
+
+#background {
+  height: 100vh;
+}
+
+#game-ground {
+  position: absolute;
+}
+
+#bg {
+  position: absolute;
+}
+
+#controls {
+  position: absolute;
+  top: 80vh;
+}
+
+.ply {
+  text-align: center;
+  margin: 1vh;
+  font-size: 5vh;
+  font-weight: bold;
+  background: greenyellow;
+  border: solid;
+  border-radius: 15px;
+}
+
+#DragonLife-t {
+  position: absolute;
+  left: 80%;
+  top: 4vh;
+}
+
+#DragonLife {
+  position: absolute;
+  left: 80%;
+  top: 2vh;
+}
+
+#YourLife-t {
+  position: absolute;
+  left: 4%;
+  top: 4vh;
+}
+
+#YourLife {
+  position: absolute;
+  left: 4%;
+  top: 2vh;
+}
